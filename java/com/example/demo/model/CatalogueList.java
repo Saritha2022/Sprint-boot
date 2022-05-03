@@ -1,9 +1,9 @@
 package com.example.demo.model;
 
 public class CatalogueList {
-	String movieName;
-	 String movieDescription;
-	int movieRating;
+	private String movieName;
+	 private String movieDescription;
+	private int movieRating;
 	
 	
 	@Override

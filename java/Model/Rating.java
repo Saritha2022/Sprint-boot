@@ -1,13 +1,8 @@
-package com.example.demo.model;
+package Model;
 
 public class Rating {
 	private String movieId;
 	private int rating;
-	
-	public Rating() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	public String getMovieId() {
 		return movieId;
 	}
@@ -25,6 +20,5 @@ public class Rating {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
-
 
 }
